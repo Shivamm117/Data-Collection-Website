@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.body{
+    background-color: rgb(255, 244, 198);
+}
+.logo{
+    position: fixed;
+    z-index: 1;
+    margin: 5px;
+    margin-left: 70px;
+}
+.navbar{
+    background: linear-gradient(to right, rgb(2, 31, 1), rgb(0, 97, 6) );
+    width: 100%;
+    position: fixed;
+    list-style: none;
+}
+
+.navbar li{
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.navbar li a{
+    color: rgb(212, 255, 211);
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    padding:.5rem 1rem ;
+    margin-left: 20px;
+}
+.navbar li:first-child{ 
+    margin-right:150px ;
+    margin-left: 50px;
+}
+.navbar li:first-child a,
+.navbar li a:hover{
+    background-color: rgba(95, 255, 95, 0.849);
+    border-radius: 6px;
+    color:currentColor;
+    transition:  ease-out 400ms;
+}
+.box{
+    width:450px;
+    height: 65px;
+    background-color: rgb(157, 255, 157);
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    border-bottom: 3px solid rgb(0, 105, 0);
+    z-index:1;
+}
+.box-head{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(0, 105, 5);
+    font-family: 'Righteous', cursive;
+}
+.box2{
+    width:450px;
+    height: 170px;
+    background-color: rgb(157, 255, 157);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    overflow-y: hidden;
+}
+.name{
+    text-align: center;
+    width: 85%;
+    margin:20px 34px;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 6px;
+    box-sizing: border-box;
+    border: .14rem solid rgb(0, 73, 0);
+    border-radius: 15px;
+    background-color: rgb(255, 251, 237);
+}
+.button{
+    width: 30%;
+    font-size: 17px;
+    border: 1px solid rgb(0, 73, 0);
+    border-radius: 20px;
+    padding: 7px 3px;
+    margin:6px 157px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:rgb(0, 73, 0);
+    color: rgb(255, 251, 237);
+    transition: ease-out 300ms;
+}
